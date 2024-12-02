@@ -1,0 +1,5 @@
+.ui-comp-textArea {
+  .app_text_area textarea {
+    resize: none !important;
+  }
+}

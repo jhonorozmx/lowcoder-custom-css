@@ -12,4 +12,9 @@ body {
   --dark-blue-headers: #0a2540;
   --gray-placeholders: #767676;
   --red-error: #d32f2f;
+
+  @nested-import "./partials/_app_modal.css";
+  @nested-import "./partials/_app_button.css";
+  @nested-import "./partials/_app_text_area.css";
+  @nested-import "./partials/_app_select_dropdown.css";
 }

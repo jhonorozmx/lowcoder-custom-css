@@ -1,86 +1,84 @@
-body {
-  .ui-comp-button {
-    .app_button {
-      button {
-        font-family: "Lato";
-        height: 40px;
+.ui-comp-button {
+  .app_button {
+    button {
+      font-family: "Lato";
+      height: 40px;
+    }
+
+    &.primary button.ant-btn.ant-btn-default {
+      background-color: var(--primary-blue);
+      border: none !important;
+      color: #ffffff;
+
+      &:hover {
+        background-color: #2a395e;
       }
 
-      &.primary button.ant-btn.ant-btn-default {
-        background-color: var(--primary-blue);
-        border: none !important;
-        color: #ffffff;
-
-        &:hover {
-          background-color: #2a395e;
-        }
-
-        &:active {
-          background-color: #2a395e;
-        }
-      }
-
-      &.secondary button.ant-btn.ant-btn-default {
-        background-color: #ffffff;
-        color: var(--primary-blue);
-        border-color: var(--primary-blue) !important;
-
-        &:hover {
-          background-color: #ffffff;
-          border-color: var(--primary-blue) !important;
-          color: var(--primary-blue);
-        }
-
-        &:active {
-          background-color: #ffffff;
-          border-color: var(--primary-blue) !important;
-          color: var(--primary-blue);
-        }
-      }
-
-      &.large button.ant-btn {
-        height: 56px;
+      &:active {
+        background-color: #2a395e;
       }
     }
 
-    &.edit_info_button {
-      float: right;
-      width: min-content;
+    &.secondary button.ant-btn.ant-btn-default {
+      background-color: #ffffff;
+      color: var(--primary-blue);
+      border-color: var(--primary-blue) !important;
 
-      & button.ant-btn.ant-btn-default {
-        background-color: transparent;
-        border: none;
-        box-shadow: none;
+      &:hover {
+        background-color: #ffffff;
+        border-color: var(--primary-blue) !important;
         color: var(--primary-blue);
-        font-weight: 500;
-        gap: 0px;
-        min-width: 84px;
+      }
 
-        &:active {
-          background-color: #ffffff;
-          border: none;
-        }
+      &:active {
+        background-color: #ffffff;
+        border-color: var(--primary-blue) !important;
+        color: var(--primary-blue);
+      }
+    }
 
-        &:hover {
-          background-color: #ffffff;
-          color: var(--primary-blue);
-          border: none;
-        }
+    &.large button.ant-btn {
+      height: 56px;
+    }
+  }
 
-        & > span {
-          line-height: 18px;
-          margin-left: 8px;
-        }
+  &.edit_info_button {
+    float: right;
+    width: min-content;
 
-        & > div img {
-          height: 18px;
-          width: 18px;
-          margin: 3px;
-        }
+    & button.ant-btn.ant-btn-default {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      color: var(--primary-blue);
+      font-weight: 500;
+      gap: 0px;
+      min-width: 84px;
 
-        div:last-child {
-          display: none;
-        }
+      &:active {
+        background-color: #ffffff;
+        border: none;
+      }
+
+      &:hover {
+        background-color: #ffffff;
+        color: var(--primary-blue);
+        border: none;
+      }
+
+      & > span {
+        line-height: 18px;
+        margin-left: 8px;
+      }
+
+      & > div img {
+        height: 18px;
+        width: 18px;
+        margin: 3px;
+      }
+
+      div:last-child {
+        display: none;
       }
     }
   }

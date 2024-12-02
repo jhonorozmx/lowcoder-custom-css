@@ -1,0 +1,13 @@
+.ant-modal-root .ant-modal.app_modal .ant-modal-content {
+  padding: 48px !important;
+  .ant-modal-close {
+    top: 48px;
+    inset-inline-end: 48px !important;
+
+    svg {
+      width: 18px;
+      height: 18px;
+      fill: #172752;
+    }
+  }
+}
