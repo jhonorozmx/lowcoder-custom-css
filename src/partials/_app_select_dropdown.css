@@ -1,9 +1,14 @@
 .ui-comp-select {
   .app_select_dropdown {
     .ant-select.ant-select-outlined {
-      min-height: 48px;
-      .ant-select-selection-search {
-        padding: 0 4px;
+      height: 56px;
+      
+      .ant-select-selector {
+        height: 56px;
+        
+        .ant-select-selection-search {
+          padding: 0 4px;
+        }
       }
     }
   }
