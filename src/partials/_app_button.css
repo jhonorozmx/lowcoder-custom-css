@@ -6,15 +6,36 @@ body {
         height: 40px;
       }
 
-      &.primary button.ant-btn {
+      &.primary button.ant-btn.ant-btn-default {
         background-color: var(--primary-blue);
+        border: none !important;
         color: #ffffff;
+
+        &:hover {
+          background-color: #2a395e;
+        }
+
+        &:active {
+          background-color: #2a395e;
+        }
       }
 
-      &.secondary button.ant-btn {
+      &.secondary button.ant-btn.ant-btn-default {
         background-color: #ffffff;
         color: var(--primary-blue);
-        border-color: var(--primary-blue);
+        border-color: var(--primary-blue) !important;
+
+        &:hover {
+          background-color: #ffffff;
+          border-color: var(--primary-blue) !important;
+          color: var(--primary-blue);
+        }
+
+        &:active {
+          background-color: #ffffff;
+          border-color: var(--primary-blue) !important;
+          color: var(--primary-blue);
+        }
       }
 
       &.large button.ant-btn {
