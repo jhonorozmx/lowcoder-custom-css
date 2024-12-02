@@ -1,18 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
 body {
-  --primary-blue: #172752;
-  --primary-selector: #edf4ff;
-  --secondary-teal: #2d8095;
-  --bg-base: #fafbff;
-  --white: #ffffff;
-  --neutral-gray-1: #e5e7eb;
-  --disabled-gray: #888b8d;
-  --body: #51555d;
-  --dark-gray-title: #292d34;
-  --dark-blue-headers: #0a2540;
-  --gray-placeholders: #767676;
-  --red-error: #d32f2f;
-
   .ui-comp-button {
     .app_button {
       button {
@@ -29,6 +15,10 @@ body {
         background-color: #ffffff;
         color: var(--primary-blue);
         border-color: var(--primary-blue);
+      }
+
+      &.large button.ant-btn {
+        height: 56px;
       }
     }
 
@@ -70,34 +60,6 @@ body {
         div:last-child {
           display: none;
         }
-      }
-    }
-  }
-
-  .app_custom_modal.ant-modal .ant-modal-content {
-    padding: 48px !important;
-
-    .ant-modal-close {
-      top: 48px;
-      inset-inline-end: 48px !important;
-
-      svg {
-        width: 18px;
-        height: 18px;
-        fill: #172752;
-      }
-    }
-  }
-
-  .app_text_area textarea {
-    resize: none !important;
-  }
-
-  .app_select_dropdown {
-    .ant-select.ant-select-outlined {
-      min-height: 48px;
-      .ant-select-selection-search {
-        padding: 0 4px;
       }
     }
   }
