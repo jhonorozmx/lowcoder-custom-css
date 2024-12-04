@@ -20,7 +20,7 @@
     }
 
     &.secondary button.ant-btn.ant-btn-default {
-      background-color: #ffffff;
+      background-color: #f19090;
       color: var(--primary-blue);
       border-color: var(--primary-blue) !important;
 
