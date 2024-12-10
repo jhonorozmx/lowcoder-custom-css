@@ -1,6 +1,8 @@
 .ui-comp-input {
-  .ant-input-outlined {
-    height: 56px;
-    padding-right: 11px;
+  .app_input {
+    .ant-input-outlined {
+      height: 56px;
+      padding: 16px;
+    }
   }
 }

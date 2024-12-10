@@ -1,9 +1,12 @@
 .ui-comp-select {
-  .ant-select-selector {
-    height: 56px !important;
-  }
+  .app_select {
+    .ant-select-selector {
+      height: 56px !important;
+      padding: 16px;
+    }
 
-  .ant-select {
-    height: 56px;
+    .ant-select {
+      height: 56px;
+    }
   }
 }

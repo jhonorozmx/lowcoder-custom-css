@@ -1,6 +1,8 @@
-.ui-comp-date{
-  .ant-picker {
-    height: 56px;
-    padding: 0 10px;
+.ui-comp-date {
+  .app_date {
+    .ant-picker {
+      height: 56px;
+      padding: 16px;
+    }
   }
 }
